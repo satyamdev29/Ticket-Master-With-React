@@ -44,7 +44,7 @@ class App extends Component {
       .catch(err => console.log(err))
 
     // es5
-    // axios.get(`http://dct-api-data.herokuapp.com/tickets?api_key=2a29bc147e9740fd`)
+    // axios.get(`http://dct-api-data.herokuapp.com/tickets?api_key=${key}`)
     //   .then(function(response){
     //     this.setState(function(){
     //       return {
