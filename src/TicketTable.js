@@ -5,8 +5,8 @@ const TicketTable = (props) => {
     return (
  
         <div>
-            <table className="table table-bordered">
-                <thead className="thead-dark">
+            <table className="table table-hover table-bordered">
+                <thead className="thead-light">
                     <tr>
                         <th> Code </th>
                         <th> Name </th>
@@ -37,7 +37,7 @@ const TicketTable = (props) => {
                                         }
                                     }} className="btn btn-outline-danger">
                                             remove
-                                         </button> 
+                                         </button>
                                     </td>
                                 </tr>
                             )
