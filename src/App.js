@@ -101,7 +101,7 @@ class App extends Component {
 
   handleSearch = (search) => {
     this.setState((prevState) => ({
-      filteredTickets: prevState.tickets.filter(ticket => (ticket.ticket_code.toLowerCase().includes(search.toLowerCase())) || (ticket.name.toLowerCase().includes(search.toLowerCase())))
+      filteredTickets: prevState.tickets.filter(ticket => (ticket.ticket_code.toLowerCase().includes(search.toLowerCase())) || (ticket.name.toLowerCase().includes(search.toLowerCase())) || (ticket.priority.toLowerCase().includes(search.toLowerCase())) || (ticket.status.toLowerCase().includes(search.toLowerCase())))
     }))
   }
 
